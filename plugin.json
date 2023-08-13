@@ -22,6 +22,12 @@
         "header": "Enjoy using this plugin? Want to contribute and make it more awesome? You can [fork the repository](https://github.com/hahmadia/google-calendar-plugin/) and submit your pull requests!",
         "settings": [
             {
+                "key": "CalendarEmailId",
+                "display_name": "Google Calendar Email ID:",
+                "type": "password",
+                "help_text": "The calendar id to add items to."
+            },
+            {
                 "key": "CalendarClientId",
                 "display_name": "Google Calendar OAuth Client ID:",
                 "type": "text",
